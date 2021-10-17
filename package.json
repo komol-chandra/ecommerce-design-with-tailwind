@@ -1,0 +1,24 @@
+{
+	"name": "ecommerce-design-with-tailwind",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build:css": "tailwind build src/style.css -o dist/style.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/komol-chandra/ecommerce-design-with-tailwind.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/komol-chandra/ecommerce-design-with-tailwind/issues"
+	},
+	"homepage": "https://github.com/komol-chandra/ecommerce-design-with-tailwind#readme",
+	"dependencies": {
+		"autoprefixer": "^10.3.7",
+		"tailwindcss": "^2.2.17"
+	}
+}
