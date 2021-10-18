@@ -7,11 +7,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 </head>
 
-<body class="bg-gray-400">
-    <h1 class="font-roboto">i am roboto</h1>
-    <h1 class="font-poppins">i am poppins</h1>
+<body>
+    <!-- header -->
+    <header class="py-4 shadow-lg bg-white">
+        <div class="container flex items-center justify-between">
+            <!-- Logo -->
+            <a href="#">
+                <img src="../src/img/logo.png" alt="logo" class="w-32">
+            </a>
+            <!-- Logo end -->
+            <!-- search bar -->
+            <div class="w-full max-w-xl relative flex">
+                <span class="left-4 top-3 absolute text-lg text-gray-400">
+                    <!-- <i class="fas-fa-search"></i> -->
+                    <i class="fas fa-search"></i>
+                </span>
+                <input type="text"
+                    class="w-full border focus-outline-none border-primary border-r-0 pl-12 py-3 rounded-1-md"
+                    placeholder="Search what you want!">
+                <button
+                    class="bg-primary border border-primary text-white px-8 rounded-r-md hover:bg-transparent hover:text-primary transition">Search</button>
+            </div>
+
+            <!-- search bar end -->
+            <!-- items -->
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+                    <div class="text-2xl">
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="text-xs leading-3">Wish List</div>
+                    <span
+                        class="absolute right-0 -top-1 w-5 h-5 rounded-full items-center justify-center text-white bg-primary text-xs">5</span>
+                </a>
+                <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+                    <div class="text-2xl">
+                        <i class="fas fa-cart-plus"></i>
+                    </div>
+                    <div class="text-xs leading-3">Cart</div>
+                    <span
+                        class="absolute -right-3 -top-1 w-5 h-5 rounded-full items-center justify-center text-white bg-primary text-xs">5</span>
+                </a>
+                <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+                    <div class="text-2xl">
+                        <i class="far fa-user"></i>
+                    </div>
+                    <div class="text-xs leading-3">Account</div>
+                    <span
+                        class="absolute right-0 -top-1 w-5 h-5 rounded-full items-center justify-center text-white bg-primary text-xs">5</span>
+                </a>
+            </div>
+            <!-- items end -->
+
+
+        </div>
+    </header>
+    <!-- header end -->
 </body>
 
 </html>
