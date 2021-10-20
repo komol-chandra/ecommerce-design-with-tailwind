@@ -18,12 +18,17 @@ module.exports = {
 				roboto: "'Roboto', sans-serif"
 			},
 			colors: {
-				primary: '#FD3D57'
+				primary: '#FD3D57',
+				secondary: '#1F2937',
+				background: '#E4EBFE'
 			}
 		}
 	},
 	variants: {
-		extend: {}
+		extend: {
+			display: ['group-hover'],
+			visibility: ['group-hover']
+		}
 	},
 	plugins: []
 };
