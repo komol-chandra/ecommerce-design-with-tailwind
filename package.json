@@ -18,6 +18,7 @@
 	},
 	"homepage": "https://github.com/komol-chandra/ecommerce-design-with-tailwind#readme",
 	"dependencies": {
+		"@tailwindcss/forms": "^0.3.4",
 		"autoprefixer": "^10.3.7",
 		"tailwindcss": "^2.2.17"
 	}
