@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Account Information Page</title>
+    <title>Wishlist Page</title>
     <link rel="stylesheet" href="src/css/tailwind-style.css">
     <link rel="stylesheet" href="src/css/font-awesome-5.15.4-all.min.css">
     <script src="src/css/font-awesome-5.15.4.all.min.js"></script>
@@ -35,7 +35,7 @@
             <!-- search bar end -->
             <!-- items -->
             <div class="flex items-center space-x-4">
-                <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+                <a href="wishlist.html" class="text-center text-gray-700 hover:text-primary transition relative">
                     <div class="text-2xl">
                         <i class="far fa-heart"></i>
                     </div>
@@ -43,7 +43,7 @@
                     <span
                         class="absolute right-0 -top-1 w-5 h-5 rounded-full items-center justify-center text-white bg-primary text-xs">5</span>
                 </a>
-                <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+                <a href="cart.html" class="text-center text-gray-700 hover:text-primary transition relative">
                     <div class="text-2xl">
                         <i class="fas fa-cart-plus"></i>
                     </div>
@@ -105,10 +105,14 @@
                     <a href="index.html" class="text-gray-200 hover:text-white transition">Home</a>
                     <a href="product-list.html" class="text-gray-200 hover:text-white transition">Shop</a>
                     <a href="product-view.html" class="text-gray-200 hover:text-white transition">Product View</a>
-                    <a href="#" class="text-gray-200 hover:text-white transition">Home</a>
+                    <a href="checkout.html" class="text-gray-200 hover:text-white transition">Checkout</a>
                 </div>
             </div>
-            <!-- navar links end -->
+            <div class="flex items-center justify-end flex-grow pl-12">
+                <a href="login.html" class="text-gray-200 hover:text-white transition group">Login</a>
+            </div>
+        </div>
+        <!-- navar links end -->
         </div>
     </nav>
     <!-- navbar end -->
@@ -122,7 +126,9 @@
             <span class="text-sm text-primary ">
                 <i class="fas fa-chevron-right"></i>
             </span>
-            <p class="text-base text-primary font-bold ">MY ACCOUNT</p>
+            <a href="account.html" class="text-base text-primary font-bold ">MY ACCOUNT</a>
+            <p class="text-base text-primary font-bold ">/</p>
+            <a href="wishlist.html" class="text-base text-primary font-bold uppercase">Wishlist</a>
         </div>
         <!-- breadcrums section end -->
 
@@ -233,12 +239,57 @@
                 </div>
                 <!-- sidebar end -->
             </div>
-            <!-- contant start  -->
-            <div class="col-span-9 grid grid-cols-3 gap-4">
+            <!-- wishlist start  -->
+            <div class="col-span-9 space-y-4">
 
-
+                <!-- single wishlist start  -->
+                <div class="flex items-center justify-between gap-6 p-4 border border-gray-400 ronded">
+                    <!-- wishlist image start  -->
+                    <div class="w-28 flex-shrink-0">
+                        <img src="src/img/products/product9.jpg" alt="product image" class="w-full">
+                    </div>
+                    <!-- wishlist image end -->
+                    <!-- wishlist contant start  -->
+                    <div class="w-1/3">
+                        <h2 class="text-gray-800 uppercase font-medium text-lg">ITALIAN L SHAPE SOFA</h2>
+                        <p class="text-gray-600 text-md capitalize mt-2">Availability: <span class="text-green-700">In
+                                Stock</span></p>
+                    </div>
+                    <div class="text-primary font-semibold text-lg">$320.00</div>
+                    <a href="#"
+                        class="uppercase text-white bg-primary border border-primary hover:text-primary hover:bg-transparent transition p-3 text-sm text-center rounded-md font-medium ">Add
+                        to cart </a>
+                    <a href="#" class="cursor-pointer text-gray-600 hover:text-primary text-lg">
+                        <i class="fas fa-trash"></i>
+                    </a>
+                    <!-- wishlist contant end -->
+                </div>
+                <!-- single wishlist end -->
+                <!-- single wishlist start  -->
+                <div class="flex items-center justify-between gap-6 p-4 border border-gray-400 ronded">
+                    <!-- wishlist image start  -->
+                    <div class="w-28 flex-shrink-0">
+                        <img src="src/img/products/product9.jpg" alt="product image" class="w-full">
+                    </div>
+                    <!-- wishlist image end -->
+                    <!-- wishlist contant start  -->
+                    <div class="w-1/3">
+                        <h2 class="text-gray-800 uppercase font-medium text-lg">ITALIAN L SHAPE SOFA</h2>
+                        <p class="text-gray-600 text-md capitalize mt-2">Availability: <span class="text-primary">Out of
+                                Stock</span></p>
+                    </div>
+                    <div class="text-primary font-semibold text-lg">$320.00</div>
+                    <a href="#"
+                        class="uppercase text-white bg-primary border border-primary hover:text-primary hover:bg-transparent transition p-3 text-sm text-center rounded-md font-medium cursor-not-allowed">Add
+                        to cart </a>
+                    <a href="#" class="cursor-pointer text-gray-600 hover:text-primary text-lg">
+                        <i class="fas fa-trash"></i>
+                    </a>
+                    <!-- wishlist contant end -->
+                </div>
+                <!-- single wishlist end -->
             </div>
-            <!-- contant end -->
+            <!-- wishlist end -->
 
 
 
